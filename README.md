@@ -6,6 +6,10 @@ See the complete public article at:
 https://medium.com/@markwkiehl/a-free-graph-rag-system-that-works-with-real-data-67363faa340f
 
 
+I've tested countless Retrieval-Augmented Generation (RAG) systems, and they all failed to meet my expectations. I found a simple two-step secret sauce that finally made a Graph/RAG system deliver relevant results.
+
+## Try It Yourself
+
 Create a Python virtual environment, activate it, and then extract the contents of the .ZIP file to the virtual environment folder. 
 
 Each script has the list of PIP INSTALLs that you need to execute after creating a Python environment:
