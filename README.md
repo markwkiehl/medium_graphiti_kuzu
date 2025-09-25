@@ -27,7 +27,7 @@ In the scripts provided are several solutions to problems you will encounter if 
 Fix The Graphiti Timezone Bug
 The file edge_operations.py in Graphiti-core Version 0.20.4 is not configured to handle a timezone-naive or timezone-aware datetime, and as a result will raise errors when adding episodes to the graph database. The fix shown below was reported by me to Graphiti on 21 September 2025:
 
-'''
+```
 
 # Lib\site-packages\graphiti_core\utils\maintenance\edge_operations.py
 
@@ -77,4 +77,4 @@ def resolve_edge_contradictions(
                 invalidated_edges.append(edge)
     
     return invalidated_edges
-'''
+```
