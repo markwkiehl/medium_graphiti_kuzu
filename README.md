@@ -28,7 +28,7 @@ In your Python IDE, run the script "api_graphiti_kuzu_build_db.py" first to buil
 
 In the scripts provided are several solutions to problems you will encounter if you try to simply use the examples provided by Graphiti. Study the scripts and use them as a template for your own investigation.
 
-##Fix The Graphiti Timezone Bug
+## Fix The Graphiti Timezone Bug
 
 The file edge_operations.py in Graphiti-core Version 0.20.4 is not configured to handle a timezone-naive or timezone-aware datetime, and as a result will raise errors when adding episodes to the graph database. The fix shown below was reported by me to Graphiti on 21 September 2025:
 
